@@ -318,7 +318,7 @@
     align-self: flex-start;
   }
 
-  .header__theme-menu-list  {
+  .header__theme-menu-list {
     --gap: 10px;
     display: flex;
     gap: var(--gap);
@@ -336,7 +336,7 @@
     grid-template-columns: repeat(3, 1fr);
     padding-block-start: var(--padding);
   }
-
+  
   .footer {
     min-block-size: 768px;
   }
