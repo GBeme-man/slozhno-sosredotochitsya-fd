@@ -1,16 +1,59 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-image: url('/images/cover-image-dark.png');
+  --movein: rgb(255,0,112);
+  --softPink: rgb(241,178,206);
+  --pureMagenta: rgb(219,0,255);
+  --darkBlue: rgb(0,0,40);
+  --bg-accent-color: var(--movein);
+  --text-color: var(--softPink);
+  --text-accent-color:var(--darkBlue);
+  --accent-color: var(--movein);
+  --border: 1px solid var(--accent-color);
+  --header__title-color: var(--pureMagenta);
+  --header__button: var(--movein);
+  --hover: rgb(255, 0, 112, 0.5);
 }
 
 .theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  background-image: var(--bg-image);
+  background-color: var(--darkBlue);
+}
+
+.theme-dark .rec-decoration::before {
+  display: block;
+}
+  
+.theme-dark .rec-decoration::after {
+  display: block;
+  }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-image: url('/images/cover-image-dark.png');
+    --movein: rgb(255,0,112);
+    --softPink: rgb(241,178,206);
+    --pureMagenta: rgb(219,0,255);
+    --darkBlue: rgb(0,0,40);
+    --bg-accent-color: var(--movein);
+    --text-color: var(--softPink);
+    --text-accent-color:var(--darkBlue);
+    --accent-color: var(--movein);
+    --border: 1px solid var(--accent-color);
+    --header__title-color: var(--pureMagenta);
+    --header__button: var(--movein);
+    --hover: rgb(255, 0, 112, 0.5);
+  }
+
+  .page {
+    background-image: var(--bg-image);
+    background-color: var(--darkBlue);
+  }
+  
+  .rec-decoration::before {
+    display: block;
+  }
+    
+  .rec-decoration::after {
+    display: block;
+    }
 }
