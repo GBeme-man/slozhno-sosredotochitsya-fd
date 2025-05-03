@@ -1,16 +1,17 @@
 :root.theme-light {
-  --bg-image: url('/images/cover-image-light.png');
-  --very_palePink: rgb(255,241,247);
-  --palePink: rgb(255,194,230);
-  --lightPink: rgb(255,141,203);
-  --darkGray: rgb(53,52,48);
-  --bg-accent-color: var(--lightPink);
-  --text-color: var(--darkGray);
-  --text-accent-color: var(--darkGray);
-  --accent-color: var(--lightPink);
-  --border: 1px solid var(--darkGray);
-  --header__title-color: var(--palePink);
-  --header__button: var(--darkGray);
+  --bg-image: url('../images/cover-image-light.png');
+  --very-pale-pink: rgb(255,241,247);
+  --pale-pink: rgb(255,194,230);
+  --light-pink: rgb(255,141,203);
+  --dark-gray: rgb(53,52,48);
+  --bg-accent-color: var(--light-pink);
+  --text-color: var(--dark-gray);
+  --text-accent-color: var(--dark-gray);
+  --accent-color: var(--light-pink);
+  --border: 1px solid var(--dark-gray);
+  --header-title-color: var(--pale-pink);
+  --section-title-color: var(--dark-gray);
+  --header-button: var(--dark-gray);
   --hover: rgb(53,52,48,0.5);
 }
 
@@ -23,29 +24,30 @@
 }
 
 .theme-light .page {
-  background-color: var(--very_palePink);
+  background-color: var(--very-pale-pink);
   background-image: var(--bg-image);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-image: url('/images/cover-image-light.png');
-    --very_palePink: rgb(255,241,247);
-    --palePink: rgb(255,194,230);
-    --lightPink: rgb(255,141,203);
-    --darkGray: rgb(53,52,48);
-    --bg-accent-color: var(--lightPink);
-    --text-color: var(--darkGray);
-    --text-accent-color: var(--darkGray);
-    --accent-color: var(--lightPink);
-    --border: 1px solid var(--darkGray);
-    --header__title-color: var(--palePink);
-    --header__button: var(--darkGray);
+    --bg-image: url('../images/cover-image-light.png');
+    --very-pale-pink: rgb(255,241,247);
+    --pale-pink: rgb(255,194,230);
+    --light-pink: rgb(255,141,203);
+    --dark-gray: rgb(53,52,48);
+    --bg-accent-color: var(--light-pink);
+    --text-color: var(--dark-gray);
+    --text-accent-color: var(--dark-gray);
+    --accent-color: var(--light-pink);
+    --border: 1px solid var(--dark-gray);
+    --header-title-color: var(--pale-pink);
+    --section-title-color: var(--dark-gray);
+    --header-button: var(--dark-gray);
     --hover: rgb(53,52,48,0.5);
   }
 
   .page {
-    background-color: var(--very_palePink);
+    background-color: var(--very-pale-pink);
     background-image: var(--bg-image);
   }
 

@@ -3,21 +3,22 @@
   и их переопределение под различные устройства
 */
 :root {
-  --bg-image: url('/images/cover-image-dark.png');
+  --bg-image: url('../images/cover-image-dark.png');
   --movein: rgb(255,0,112);
-  --softPink: rgb(241,178,206);
-  --pureMagenta: rgb(219,0,255);
-  --darkBlue: rgb(0,0,40);
+  --soft-pink: rgb(241,178,206);
+  --pure-magenta: rgb(219,0,255);
+  --dark-blue: rgb(0,0,40);
   --bg-accent-color: var(--movein);
-  --text-color: var(--softPink);
-  --text-accent-color:var(--darkBlue);
+  --text-color: var(--soft-pink);
+  --text-accent-color:var(--dark-blue);
   --accent-color: var(--movein);
   --border: 1px solid var(--accent-color);
-  --header__title-color: var(--pureMagenta);
+  --header-title-color: var(--pure-magenta);
+  --section-title-color: var(--movein);
   --text-shadow: 4px 4px 0 var(--accent-color);
-  --header__title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size: 18px;
-  --main__font-family: 'IBM Plex mono', sans-serif;
+  --main-font-family: 'IBM Plex mono', sans-serif;
   --line-height: calc(23.4 / 18);
   --bold: 700;
   --regular: 400;
